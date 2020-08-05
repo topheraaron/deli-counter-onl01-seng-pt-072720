@@ -4,3 +4,10 @@ def line(katz_deli)
       puts "The line is currently empty."
   end
 end
+
+def take_a_number(katz_deli, name)
+  array.push(name)
+  position = katz_deli.index(name)
+  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  return name, position 
+end
